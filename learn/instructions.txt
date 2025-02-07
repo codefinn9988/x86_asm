@@ -1,0 +1,45 @@
+link: http://home.myfairpoint.net/fbkotler/nasmdocc.html
+
+https://web.stanford.edu/class/cs107/resources/x86-64-reference.pdf
+
+1. mov 
+2. add 
+3. sub 
+4. imul 
+5. idivq
+6. or 
+7. xor 
+8. cmp 
+9. set 
+10. jmp 
+11. ret 
+12. push 
+13. pop 
+14. leave 
+15. call 
+16. JE
+17. JNE 
+18. JG
+19. JGE
+20. JA
+21. JAE
+
+
+
+  ;ADD - Addition
+  ;SUB - Subtraction
+  ;MUL - Unsigned multiplication
+  ;IMUL - Signed multiplication
+  ;DIV - Unsigned division
+  ;IDIV - Signed division
+  ;INC - Increment
+  ;DEC - Decrement
+  ;NEG - Negation
+  ;
+  ;JE/JZ - Jump if the values are equal.
+  ;JNE/JNZ - Jump if the values are not equal.
+  ;JG - Jump if the first value is greater than the second.
+  ;JGE - Jump if the first value is greater or equal to the second.
+  ;JA - The same as JG, but performs the unsigned comparison.
+  ;JAE - The same as JGE, but performs the unsigned comparison.
+

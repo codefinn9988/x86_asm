@@ -1,0 +1,40 @@
+Name (Registers) = Purpose 
+1.  rax = Return values from functions; used in arithmetic operations.
+2.  rbx = Base pointer for data structures; preserved across function calls. | (preserved)
+3.  rcx = Counter for loops and string operations; can also be used as a scratch register.
+4.  rdx = Used for I/O operations and arithmetic (especially multiplication/division).
+5.  rsp = Stack pointer; points to the top of the stack. Preserved across function calls. |  (preserved)
+6.  rbp = Base pointer for stack frames; preserved across function calls. | (preserved)
+7.  rsi = Source index for data transfers; scratch register in Linux, preserved in Windows.
+8.  rdi = Destination index for data transfers; scratch register in Linux, preserved in Windows.
+9.  r8  = Additional scratch register introduced in x86_64.
+10. r9  = Additional scratch register introduced in x86_64.
+11. r10 = Additional scratch register introduced in x86_64.
+12. r11 = Additional scratch register introduced in x86_64.
+13. r12 = Preserved register; must be saved if used.| (preserved)
+14. r13 = Preserved register; must be saved if used.| (preserved)
+15. r14 = Preserved register; must be saved if used.| (preserved)
+16. r15 = Preserved register; must be saved if used.| (preserved)
+
+
+use case 
+1. rsp 
+2. rbp 
+3. rax 
+4  rdi 
+5. rsi 
+6. rdx
+7. rcx
+8. rbx
+
+  AX - Accumulator, implicitly used in some math instructions.
+	BX - Base register, also used in some math instructions.
+	CX - Count register, used implicitly with the Loop instruction.
+	DX - Data register, also used in some math instructions.
+	CS - Points to the current memory segment that is currently being executed.
+	DS - Points to the data segment of the program (same as CS for us.)
+	SS - Points to the stack segment of the program (")
+	ES - A scratch segment pointer.
+	BP - Points to the base of the built-in CPU stack.
+	SP - Points to the top of the built-in CPU stack.
+	IP - Points to the location of the currently executing statement (can't explicitly access IP).
