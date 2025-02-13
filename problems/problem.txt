@@ -1,10 +1,4 @@
 [simple problems]
-1. Swapping Two Numbers: Swap the values of two variables.
-2. Finding the Maximum of Two Numbers: Determine which of two numbers is larger.
-3. Reversing a String: Reverse the characters in a null-terminated string.
-4. Sum of an Array: Calculate the sum of all elements in an array.
-5. Sorting an Array: Implement a simple sorting algorithm (e.g., bubble sort) on an array.
-6. Binary Search Algorithm: Implement binary search on a sorted array of integers.
 7. File I/O Operations: Write a program to read from and write to files using system calls for file operations.
 8. User Input
 9. Use stack

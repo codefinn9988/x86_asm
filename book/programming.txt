@@ -1,0 +1,12 @@
+How to write program 
+1. Understand the Problem
+2. Create the Algorithm
+3. Implement the Program
+4. Test/Debug the Program
+
+a. do it right 
+b. make it fast
+
+If you really wanna Understand something 
+i. Understand the level that's  necessary 
+ii. and then one level below that 
